@@ -1,0 +1,16 @@
+# Project
+## Node
+node_modules
+
+# Operating Systems
+## MacOS
+.DS_Store
+
+# Meta Data
+## JetBrains
+.idea
+
+# Environment variables
+.env
+
+# Manually managed files
