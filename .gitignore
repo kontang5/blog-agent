@@ -2,6 +2,9 @@
 ## Node
 node_modules
 
+## Build
+dist/
+
 # Operating Systems
 ## MacOS
 .DS_Store
