@@ -10,5 +10,7 @@ export const config: Config = {
   },
   springApi: {
     baseUrl: process.env.SPRING_API_BASE_URL || "http://localhost:8080",
+    username: process.env.SPRING_API_USERNAME || "admin",
+    password: process.env.SPRING_API_PASSWORD || "",
   },
 };

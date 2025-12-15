@@ -48,5 +48,7 @@ export interface Config {
   };
   springApi: {
     baseUrl: string;
+    username: string;
+    password: string;
   };
 }

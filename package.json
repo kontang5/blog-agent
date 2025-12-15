@@ -19,8 +19,11 @@
     "typescript": "^5.3.0"
   },
   "dependencies": {
+    "@types/tough-cookie": "^4.0.5",
     "axios": "^1.13.2",
+    "axios-cookiejar-support": "^6.0.5",
     "dotenv": "^17.2.3",
-    "openai": "^6.13.0"
+    "openai": "^6.13.0",
+    "tough-cookie": "^6.0.0"
   }
 }
