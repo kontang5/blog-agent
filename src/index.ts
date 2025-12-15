@@ -26,6 +26,8 @@ async function processUserInput(input: string): Promise<string> {
     messages.push(assistantMessage);
 
     for (const toolCall of assistantMessage.tool_calls) {
+      if (toolCall.type !== "function") continue;
+
       const args = JSON.parse(toolCall.function.arguments);
       console.log(`\n[Tool] ${toolCall.function.name}(${JSON.stringify(args)})`);
 
